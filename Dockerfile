@@ -1,2 +1,2 @@
-FROM ubuntu:latest
-RUN mkdir /opt/raju
+FROM almalinux:8
+RUN dnf install nginx -y 
